@@ -4,3 +4,12 @@ let horseAge = 27;
 console.log(horseAge);
 let isHorseInside = true;
 console.log(isHorseInside);
+
+//Lesson 4 code
+console.log(typeof "123") //this is a string because of the ""
+let x = 1000000000000;
+let y = 1000;
+let z = 10;
+let a = 1.79769313486231 //What is the max number??
+const STABLE_MONTHLY_FEE = x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*y*y*z*z*a;
+console.log(STABLE_MONTHLY_FEE)
