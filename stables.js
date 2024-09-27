@@ -14,4 +14,4 @@ let a = 1.79769313486231 //What is the max number??
 const STABLE_MONTHLY_FEE = x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*y*y*z*z*a;
 console.log("The stable will cost $" + (STABLE_MONTHLY_FEE*0.9) + "a month. This is 10% off")
 let horseNickname = "Tree Man"
-console.log(horseNickname)
+console.log(`My horses name is "${horseName}" his nickname is ${horseNickname} `);
