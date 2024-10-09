@@ -15,3 +15,6 @@ const STABLE_MONTHLY_FEE = x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*y*y
 console.log("The stable will cost $" + (STABLE_MONTHLY_FEE*0.9) + "a month. This is 10% off")
 let horseNickname = "Tree Man"
 console.log(`My horses name is "${horseName}" his nickname is ${horseNickname} `);
+
+console.log("Is my horse inside T/F?")
+console.log(isHorseInside)
