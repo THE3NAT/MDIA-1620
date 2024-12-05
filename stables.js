@@ -1,27 +1,30 @@
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+
+
+// ░░░░░░░░▄▄▄▀▀▀▄▄███▄░░░░░░░░░░░░░░ ░░░░░░░░▄▄▄▀▀▀▄▄███▄░░░░░░░░░░░░░░ ░░░░░░░░▄▄▄▀▀▀▄▄███▄░░░░░░░░░░░░░░ ░░░░░░░░▄▄▄▀▀▀▄▄███▄░░░░░░░░░░░░░░
+
+// ░░░░░▄▀▀░░░░░░░▐░▀██▌░░░░░░░░░░░░░░░░░░▄▀▀░░░░░░░▐░▀██▌░░░░░░░░░░░░░░░░░░▄▀▀░░░░░░░▐░▀██▌░░░░░░░░░░░░░░░░░░▄▀▀░░░░░░░▐░▀██▌░░░░░░░░░░░░░
+
+// ░░░▄▀░░░░▄▄███░▌▀▀░▀█░░░░░░░░░░░░░░░░▄▀░░░░▄▄███░▌▀▀░▀█░░░░░░░░░░░░░░░░▄▀░░░░▄▄███░▌▀▀░▀█░░░░░░░░░░░░░░░░▄▀░░░░▄▄███░▌▀▀░▀█░░░░░░░░░░░░░
+
+// ░░▄█░░▄▀▀▒▒▒▒▒▄▐░░░░█▌░░░░░░░░░░░░░░▄█░░▄▀▀▒▒▒▒▒▄▐░░░░█▌░░░░░░░░░░░░░░▄█░░▄▀▀▒▒▒▒▒▄▐░░░░█▌░░░░░░░░░░░░░░▄█░░▄▀▀▒▒▒▒▒▄▐░░░░█▌░░░░░░░░░░░░
+
+// ░▐█▀▄▀▄▄▄▄▀▀▀▀▌░░░░░▐█▄░░░░░░░░░░░░▐█▀▄▀▄▄▄▄▀▀▀▀▌░░░░░▐█▄░░░░░░░░░░░░▐█▀▄▀▄▄▄▄▀▀▀▀▌░░░░░▐█▄░░░░░░░░░░░░▐█▀▄▀▄▄▄▄▀▀▀▀▌░░░░░▐█▄░░░░░░░░░░░
+
+// ░▌▄▄▀▀░░░░░░░░▌░░░░▄███████▄░░░░░░░▌▄▄▀▀░░░░░░░░▌░░░░▄███████▄░░░░░░░▌▄▄▀▀░░░░░░░░▌░░░░▄███████▄░░░░░░░▌▄▄▀▀░░░░░░░░▌░░░░▄███████▄░░░░░░
+
+// ░░░░░░░░░░░░░▐░░░░▐███████████▄░░░░░░░░░░░░░░░░▐░░░░▐███████████▄░░░░░░░░░░░░░░░░▐░░░░▐███████████▄░░░░░░░░░░░░░░░░▐░░░░▐███████████▄░░░
+
+// ░░░░░le░░░░░░░▐░░░░▐█████████████▄░░░░░le░░░░░░░▐░░░░▐█████████████▄░░░░░le░░░░░░░▐░░░░▐█████████████▄░░░░░le░░░░░░░▐░░░░▐█████████████▄
+
+// ░░░░toucan░░░░░░▀▄░░░▐█████████████▄░░░toucan░░░░░▀▄░░░▐█████████████▄░░░toucan░░░░░▀▄░░░▐█████████████▄░░░toucan░░░░░▀▄░░░▐█████████████▄
+
+// ░░░░░░has░░░░░░░░▀▄▄███████████████░░░░░░has░░░░░░░░▀▄▄███████████████░░░░░░has░░░░░░░░▀▄▄███████████████░░░░░░has░░░░░░░░▀▄▄███████████████
+
+// ░░░░░arrived░░░░░░░░░░░░█▀██████░░░░░░░arrived░░░░░░░░░░░░█▀██████░░░░░░░arrived░░░░░░░░░░░░█▀██████░░░░░░░arrived░░░░░░░░░░░░█▀██████░░
+
+
+//                                                                       PRAISE!
+
 // Welcome!
 // This is a template for the final project. You'll be setting up a stable and making
 // sure it runs smoothly.
@@ -58,7 +61,7 @@ let stallsTotal = 10;
 // - a method that introduces your horse and references at least 3 object properties.
 // - a second, unique method of your choice
 
-function HorseConstruct(name, nickname, favTreat, age, rent, isHorseInside, uniqueProperty1, uniqueProperty2){
+function HorseConstruct(name, nickname, favTreat, age, rent, isHorseInside, uniqueProperty1, fears){
     this.name = name;
     this.nickname = nickname;
     this.favoriteTreat = favTreat;
@@ -66,11 +69,11 @@ function HorseConstruct(name, nickname, favTreat, age, rent, isHorseInside, uniq
     this.rent = rent;
     this.isHorseInside = isHorseInside;
     this.UniqueProperty1 = uniqueProperty1;
-    this.UniqueProperty2 = uniqueProperty2;
+    this.fears = fears;
 }
-let horse1 = new HorseConstruct("Johnny", "John", "Apples", 26, 130.00, true, "Not unique in any way", "Is just a normal Horse");
-let horse2 = new HorseConstruct("Powder", "Jinx","C4",17, 120.00, false,"Has blue Hair","Has long hair");
-let horse3 = new HorseConstruct("Blargboard Box","Nick", "Candy", 4.99, lateFee, true, "A cardboard cutout of a horse", "Scared of water");
+let horse1 = new HorseConstruct("Johnny", "John", "Apples", 26, 130.00, false, "Not unique in any way", "Mean horses >:(");
+let horse2 = new HorseConstruct("Powder", "Jinx","C4",17, 120.00, false,"Has blue Hair","The Police");
+let horse3 = new HorseConstruct("Blargboard Box","Nick", "Candy", 4.99, lateFee, true, "A cardboard cutout of a horse", "Water");
 
 // Store the horses you've just created in your "horses" variable.
 
@@ -85,9 +88,9 @@ let horse4 = {
     favoriteTreat: "Gold Bars",
     age: 68,
     lateFee: lateFee*2,
-    isHorseInside: false,
+    isHorseInside: true,
     UniqueProperty1: "Loves dem dalla dalla billz",
-    UniqueProperty2: "Eats the poor",
+    fears: "The bottom 99% of horses",
 }
 horses.push (horse4)
 //console.log(horses);
@@ -95,16 +98,15 @@ horses.push (horse4)
 // Initialize new property to your horses: a boolean that allows you to check if your horse
 // is hungry or not. Use dot or bracket notation
 
-function HorseHungar(horse){
-    horse.isHorseHungary = true;
-    horse1.isHorseHungary = false;
-    horse3.isHorseHungary = false;
-    return horse;
+function HorseHunger(horseHunger){  //Create a new variable
+    horseHunger.isHorseHungry = true;  //define the boolean value for the variable
+    horse1.isHorseHungry = false;
+    horse3.isHorseHungry = false; //overwrite the varible for specific horses
 }
 
-horses.map(HorseHungar);
+horses.map(HorseHunger); //assign the results of the varible/ function to the horses array
 
-console.log (horses);
+// console.log (horses);
 
 
 //------------------------- Stable roster -------------------------//
@@ -142,11 +144,11 @@ HorseFeeLogger(horse3);
 // the treat, log out their disatisfaction and check the next horse. Exit the loop when you find
 // the horse that likes the treat.
 
-for(let horse of horses){
-    if(horse.favoriteTreat != horse4.favoriteTreat){
-        console.log (`${horse.name} hates ${horse4.favoriteTreat}`)
+for(let singleHorse of horses){
+    if(singleHorse.favoriteTreat != horse4.favoriteTreat){
+        console.log (`${singleHorse.name} hates ${singleHorse.favoriteTreat}`)
     } else {
-        console.log (`${horse.name} loves ${horse.favoriteTreat}`)
+        console.log (`${singleHorse.name} loves ${singleHorse.favoriteTreat}`)
         break;
     }
 }
@@ -154,8 +156,8 @@ for(let horse of horses){
 // Create and invoke a function that returns (not logs) the nickname of a chosen horse. Log out
 // the return value outside of the function.
 
-function RetunHorseNickname(horse){
-    return horse.nickname;
+function RetunHorseNickname(singleHorse){
+    return singleHorse.nickname;
 }
 console.log(`Powder's nickname is ${RetunHorseNickname(horse2)}`);
 //------------------------- Day to day operations -------------------------//
@@ -163,15 +165,116 @@ console.log(`Powder's nickname is ${RetunHorseNickname(horse2)}`);
 // Create and invoke a function references one of your unique horse properties. It should
 // contain a conditional or a loop.
 
+function EternalFears(){
+    let limit = 0;
+    for(let singleHorse of horses){
+        if(limit >= 4){
+            break;
+        } else {
+            console.log (`${singleHorse.name} fears ${singleHorse.fears}`)
+            limit++
+        }
+    }
+}
+EternalFears()
+
 // Morning! Create and invoke a function that moves all your horses outside. It should
 // log out statement indicating the horses have been moved to spend time in the sun.
 
+function GoOutside(){
+    let limit = 0;
+    let horseNumber = 0;
+    for(let singleHorse of horses){
+        if(limit >= 4){
+            break;
+        } else {
+            if (singleHorse.isHorseInside === true){
+                singleHorse.isHorseInside = false;
+                limit++
+                horseNumber++
+                console.log(`${[horseNumber]} horses have moved outside`)
+            } else{
+                limit++
+            }
+        }
+    }
+}
+GoOutside()
+
+
 // Initialize a method on your horses that moves them inside if they are outside, and
 // vice versa.
+
+function ReverseSide(){
+    let limit = 0;
+    for(let singleHorse of horses){
+        if(limit >= 4){
+            break;
+        } else {
+            if (singleHorse.isHorseInside === true){
+                singleHorse.isHorseInside = false;
+                limit++
+            } else{
+                singleHorse.isHorseInside = true;
+                limit++
+            }
+        }
+    }
+}
+ReverseSide()
+
 
 // Food! Create and invoke a function that feeds your horses. If the horse is outside, it
 // should call them in, and then all horses should be fed a treat. Log the activity of
 // the horses.
 
+function FeedTreat(){
+    let limit = 0;
+    for(let singleHorse of horses){
+        if(limit >= 4){
+            break;
+        } else {
+            if (singleHorse.isHorseInside === false){
+                singleHorse.isHorseInside = true;
+                limit++
+                console.log(`${[singleHorse.name]} Came inside and ate their snack`)
+            } else{
+                limit++
+                console.log(`${[singleHorse.name]} Was already inside and ate their snack with great zeal`)
+            }
+        }
+    }
+}
+FeedTreat()
+
 // Bedtime! Update the function that lets your horses outside so that it also calls them
 // in if it is getting dark. Only the horses that moved should log out a message. Invoke the function.
+
+let daytime = true;
+
+function Nighttime(){
+    let limit = 0;
+    for(let singleHorse of horses){
+        if(limit >= 4){
+            break;
+        } else {
+            if (singleHorse.isHorseInside && daytime === true){
+                singleHorse.isHorseInside = false;
+                console.log(`${[singleHorse.name]} Has decided to go out for the day`)
+                limit++
+            } else{
+                limit++
+            
+            }
+            if (singleHorse.isHorseInside && daytime === false){
+                singleHorse.isHorseInside = true;
+                console.log(`${[singleHorse.name]} Has come in for the night`)
+                limit++
+            } else{
+                limit++
+        }
+    }
+}}
+Nighttime()
+
+console.log (horses);
